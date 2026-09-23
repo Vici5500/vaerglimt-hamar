@@ -30,7 +30,7 @@ h1,h2,h3{font-family:Manrope,sans-serif!important;color:#183443!important}
 div[data-testid="stMetric"]{background:#fff;border:1px solid #555;border-radius:18px;padding:16px 20px;box-shadow:0 8px 24px #284f6010}
 div[data-testid="stMetricLabel"],div[data-testid="stMetricLabel"] p{color:#183443!important;opacity:1!important;font-weight:700!important}
 div[data-testid="stMetricValue"],div[data-testid="stMetricValue"] div{color:#183443!important;opacity:1!important}
-.stApp p,.stApp span,.stApp label{color:#31505b!important;opacity:1!important}div[data-testid="stPlotlyChart"] svg text{fill:#183443!important}
+.stApp p,.stApp span,.stApp label{color:#31505b!important;opacity:1!important}div[data-testid="stPlotlyChart"] .xtick text,div[data-testid="stPlotlyChart"] .ytick text,div[data-testid="stPlotlyChart"] .g-xtitle text,div[data-testid="stPlotlyChart"] .g-ytitle text{fill:#183443!important}
 </style>""",unsafe_allow_html=True)
 
 def scene_svg(condition: str) -> str:
